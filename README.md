@@ -1,3 +1,5 @@
+# Feature grana za stalne izmjene
+
 # IT Oprema Projekt
 
 Ovaj projekt implementira CRUD operacije za IT opremu koristeći Node.js i Express.  
