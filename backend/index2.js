@@ -159,7 +159,7 @@ app.delete("/api/servisi/:id", (req, res) => {
 });
 
 //Ruta za dohvaćanje servisirane opreme
-app.get("/api/oprema/servisirane", (req, res) => {
+app.get("/api/oprema_servisirana", (req, res) => {
     const query = `
         SELECT * 
         FROM status_opreme_projekt_2025
@@ -185,7 +185,7 @@ app.get("/api/oprema/servisirane", (req, res) => {
 
 
 //Ruta za dohvaćanje opreme s kvarovima
-app.get("/api/oprema/kvarovi", (req, res) => {
+app.get("/api/oprema_kvarovi", (req, res) => {
     const query = `
         SELECT * 
         FROM status_opreme_projekt_2025
