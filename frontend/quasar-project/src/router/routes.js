@@ -16,8 +16,8 @@ const routes = [
         component: () => import('pages/UnosOpremePage.vue')
       },
       {
-        path: 'servis_opreme',
-        component: () => import('pages/ServisOpremePage.vue')
+        path: 'povijest_opreme',
+        component: () => import('pages/PovijestOpremePage.vue')
       },
       {
         path: 'status_opreme',

@@ -73,10 +73,10 @@ const linksList = [
     link: '#/unos_opreme/'
   },
   {
-    title: 'Servis opreme',
-    caption: 'Prikaz servisirane opreme',
+    title: 'Povijest opreme',
+    caption: 'Prikaz povijesti opreme',
     icon: 'build',
-    link: '#/servis_opreme/'
+    link: '#/povijest_opreme/'
   },
   {
     title: 'Status opreme',

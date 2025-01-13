@@ -1,0 +1,22 @@
+warning: in the working copy of 'backend/index2.js', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/backend/index2.js b/backend/index2.js[m
+[1mindex 4e96680..a6ce71e 100644[m
+[1m--- a/backend/index2.js[m
+[1m+++ b/backend/index2.js[m
+[36m@@ -158,7 +158,7 @@[m [mapp.delete("/api/servisi/:id", (req, res) => {[m
+     });[m
+ });[m
+ [m
+[31m-//Ruta za dohvaćanje servisirane opreme[m
+[32m+[m[32m// Ruta za dohvaćanje servisirane opreme[m
+ app.get("/api/oprema_servisirana", (req, res) => {[m
+     const query = `[m
+         SELECT * [m
+[36m@@ -184,6 +184,7 @@[m [mapp.get("/api/oprema_servisirana", (req, res) => {[m
+ [m
+ [m
+ [m
+[32m+[m
+ //Ruta za dohvaćanje opreme s kvarovima[m
+ app.get("/api/oprema_kvarovi", (req, res) => {[m
+     const query = `[m
