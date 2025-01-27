@@ -19,7 +19,7 @@ export default {
       columns: [
         { name: 'id', label: 'ID', field: 'id', sortable: true },
         { name: 'oprema_id', label: 'ID Opreme', field: 'oprema_id', sortable: true },
-        { name: 'oprema_naziv', label: 'Naziv opreme', field: 'oprema_naziv', sortable: true },
+        { name: 'naziv_opreme', label: 'Naziv opreme', field: 'naziv_opreme', sortable: true },
         { name: 'datum_kvara', label: 'Datum kvara', field: 'datum_kvara', sortable: true },
         { name: 'kvar_opis', label: 'Opis kvara', field: 'kvar_opis' },
         { name: 'datum_servisa', label: 'Datum servisa', field: 'datum_servisa' },

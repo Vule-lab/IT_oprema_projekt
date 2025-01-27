@@ -76,7 +76,7 @@ export default {
       const formData = {
         naziv: this.naziv,
         serijski_broj: this.serijskiBroj,
-        godina_proizvodnje: this.godinaProizvodnje,
+        god_proizvodnje: this.godinaProizvodnje,
         dobavljac: this.dobavljac
       }
       // Poziv API-ja za unos podataka
